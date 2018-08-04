@@ -1,0 +1,57 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.top {
+	border: 0;
+	padding: 0;
+	position:fixed;
+	 left: 0px;
+	 right: 0px;
+	z-index:100;
+	border-style: solid;
+	border-color: #FEDD55;
+	background-color: #FEDD55;
+	box-shadow: 0 1px 3px rgba(26,26,26,.1);
+	padding: 0px;
+	display: table-cell;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#bloghead{
+	font-size: 30px;
+}
+
+#temp{
+	color: #707070;
+	font-size: 20px;
+	margin-left:20px;
+}
+
+#tops{
+	margin-left: 30px;
+}
+
+#tops button{
+	border: none;
+	background-color: transparent;
+	border-right: 15px;
+	border-left: 15px;
+	font-size: 15px;
+	height: 40px;
+	width: 4%;
+}
+
+#login{
+	margin-left: 50%;
+	border: none;
+	background-color: transparent;
+	margin-bottom: 0px;
+}
+
+#login p{
+	margin-top: 0;
+	margin-bottom: 0px;
+}
