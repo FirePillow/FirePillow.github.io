@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<script src="https://unpkg.com/wangeditor@3.1.1/release/wangEditor.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<meta charset="UTF-8">
+		<title>BLOG | KCIBALD BLOG</title>
+		<link href="style.css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet" >
+	</head>
+	<body>
+		<div class="top">
+			<span id="temp">KCIBALD LOGO</span><span id="bloghead"> | Blog</span>
+			<span id="tops">
+				<button>Home</button>
+				<button>Web</button>
+				<button>Daily</button>
+				<button>About</button>
+			</span>
+			<button id="login"><i class="far fa-user"></i><p>login</p></button>
+		</div>
+		<div class="content">
+			<div class="blogtitle">
+				<input type="text" placeholder="Title here" id="blogtitle">
+			</div>
+			<div id="editor">
+	    	</div>
+
+	    	<!-- 注意， 只需要引用 JS，无需引用任何 CSS ！！！-->
+	    	<script type="text/javascript">
+	        	var E = window.wangEditor
+	        	var editor = new E('#editor')
+	        	editor.customConfig.uploadImgShowBase64 = true
+	        	// 或者 var editor = new E( document.getElementById('editor') )
+	        	editor.customConfig.menus = [
+				    'bold',  // 粗体
+				    'italic',  // 斜体
+				    'underline',  // 下划线
+				    'strikeThrough',  // 删除线
+				    'foreColor',  // 文字颜色
+				    'backColor',  // 背景颜色
+				    'link',  // 插入链接
+				    'list',  // 列表
+				    'justify',  // 对齐方式
+				    'quote',  // 引用
+				    'image',  // 插入图片
+				    'video',  // 插入视频
+				    'code',  // 插入代码
+				    'undo',  // 撤销
+				    'redo'  // 重复
+			    ]
+	        	editor.create()
+	    	</script>
+	    	<script type="text/javascript">
+				function add(){
+					var title = document.getElementById('blogtitle').value;
+					var raw = editor.txt.html();
+					wangplace = document.getElementById('wanghtml');
+					wangplace.innerHTML = "<h1>"+title+"</h1>"+raw;
+				}
+	    	</script>
+	    	<div id="publish"><button onclick="add()">publish</button></div>
+		    <!--When it comes to final version, class preview will be deleted-->
+		    <div class="preview">
+		    	<p>published content preview start!!!!!_______________</p>
+		    	<div id="wanghtml">
+		    	</div>
+		    	<p>published content preview end______________________</p>
+		    </div>
+		</div>
+	</body>
+</body>
+</html>

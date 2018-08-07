@@ -1,0 +1,148 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.top {
+	border: 0;
+	padding: 0;
+	position:fixed;
+	 left: 0px;
+	 right: 0px;
+	z-index:99999;
+	border-style: solid;
+	border-color: #FEDD55;
+	background-color: #FEDD55;
+	box-shadow: 0 1px 3px rgba(26,26,26,.1);
+	padding: 0px;
+	display: table-cell;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	opacity: 0.9;
+}
+
+#bloghead{
+	font-size: 30px;
+}
+
+#temp{
+	color: #707070;
+	font-size: 20px;
+	margin-left:20px;
+}
+
+#tops{
+	margin-left: 30px;
+}
+
+#tops button{
+	border: none;
+	background-color: transparent;
+	border-right: 15px;
+	border-left: 15px;
+	font-size: 15px;
+	height: 40px;
+	width: 4%;
+}
+
+#login{
+	margin-left: 50%;
+	border: none;
+	background-color: transparent;
+	margin-bottom: 0px;
+}
+
+#login p{
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+
+/*page start*/
+.content{
+	padding-top:55px;
+}
+
+.blogtitle{
+	text-align:center;
+	margin:10px auto;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+#blogtitle{
+	width: 100%;
+	height: 40px;
+	font-size: 30px;
+}
+
+#editor{
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.preview{
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+#publish{
+	text-align:center;
+	margin:10px auto;
+}
+
+#publish button{
+	border: none;
+	background-color: #FEDD55;
+	font-size:40px;
+	height: 40px;
+}
+
+h1{
+	margin: 10px,0;
+}
+
+/*wang editor's requirements*/
+table {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+table td,
+table th {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 3px 5px;
+}
+table th {
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+
+/* blockquote 样式 */
+blockquote {
+  display: block;
+  border-left: 8px solid #d0e5f2;
+  padding: 5px 10px;
+  margin: 10px 0;
+  line-height: 1.4;
+  font-size: 100%;
+  background-color: #f1f1f1;
+}
+
+/* code 样式 */
+code {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  padding: 3px 5px;
+  margin: 0 3px;
+}
+pre code {
+  display: block;
+}
+
+/* ul ol 样式 */
+ul, ol {
+  margin: 10px 0 10px 20px;
+}
