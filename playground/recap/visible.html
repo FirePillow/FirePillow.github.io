@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Login | KCIBALD BLOG</title>
+		<link href="style.css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet" >
+		<script src=https://www.recaptcha.net/recaptcha/api.js async defer=defer></script>
+		<script>
+            function f(n) {
+                alert(n);
+            }
+        </script>
+	</head>
+	<body>
+		<div class="content">
+			<img id="bald" src="../common/theBald.svg" alt="The Bald!"/>
+			<h1><span class="russo">KCIBALD</span> | <span class="harrington">BLOG</span></h1>
+			<div>
+			<form>
+				<input type="text" placeholder="User name" maxlength="25">
+				<input type="password" placeholder="Password" maxlength="30">
+
+				<button type="button">login</button>
+				<div class="g-recaptcha" data-sitekey="6LeNdGkUAAAAAH4rKweZqGKduJlfbmddI6aBsY-7" data-callback="f"></div>
+			</form>
+			</div>
+		</div>
+	</body>
+</html>
