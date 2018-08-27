@@ -1,0 +1,3 @@
+# Introduction
+Easy way to share and build for raw (static) html's inside our team
+It might also used to give an preview for others...
