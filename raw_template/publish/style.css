@@ -1,20 +1,17 @@
-body{
-	margin:0px;
-	padding:0px;
+body {
+	margin: 0px;
+	padding: 0px;
 }
-
-.pixel{
+.pixel {
 	font-family: 'NeuePixelSans';
 	font-weight: normal;
 }
-
 .top {
 	border: 0;
-	padding: 0;
-	position:fixed;
+	position: fixed;
 	left: 0px;
 	right: 0px;
-	z-index:99999;
+	z-index: 99999;
 	border-style: solid;
 	border-color: #FEDD55;
 	background-color: #FEDD55;
@@ -25,22 +22,18 @@ body{
 	padding-bottom: 0px;
 	opacity: 0.9;
 }
-
-#bloghead{
+#bloghead {
 	font-size: 30px;
 }
-
-#temp{
+#temp {
 	color: #707070;
 	font-size: 20px;
-	margin-left:20px;
+	margin-left: 20px;
 }
-
-#tops{
+#tops {
 	margin-left: 30px;
 }
-
-#tops button{
+#tops button {
 	border: none;
 	background-color: transparent;
 	border-right: 15px;
@@ -49,110 +42,99 @@ body{
 	height: 40px;
 	width: 4%;
 }
-
-#login{
+#login {
 	margin-left: 50%;
 	border: none;
 	background-color: transparent;
 	margin-bottom: 0px;
 }
-
-#login p{
+#login p {
 	margin-top: 0;
 	margin-bottom: 0px;
 }
-
 /*page start*/
-.content{
-	padding-top:55px;
+.content {
+	padding-top: 55px;
 }
-
-.blogtitle{
-	text-align:center;
-	margin:10px auto;
+.blogtitle {
+	text-align: center;
+	margin: 10px auto;
 	margin-left: 300px;
 	margin-right: 300px;
 }
-
-#blogtitle{
+#blogtitle {
 	width: 100%;
 	height: 40px;
 	font-size: 30px;
 }
-
-#editor{
+#editor {
 	margin-left: 300px;
 	margin-right: 300px;
 }
-
-.preview{
+.preview {
 	margin-left: 300px;
 	margin-right: 300px;
 }
-
-#publish{
-	text-align:center;
-	margin:10px auto;
+#publish {
+	text-align: center;
+	margin: 10px auto;
 }
-
-#publish button{
+#publish button {
 	box-sizing: border-box;
 	display: block;
 	border: none;
 	background-color: #FEDD55;
-	font-size:35px;
+	font-size: 35px;
 	height: 50px;
 	border-radius: 48px;
 	margin: 0px auto;
 	width: 250px;
+	color: black;
 }
-
-h1{
-	margin: 10px,0;
+#publish button:active {
+	color: rgba(247,247,247,1.00);
 }
-
+h1 {
+	margin: 10px, 0;
+}
 /*wang editor's requirements*/
 table {
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
 }
-table td,
+table td, table th {
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 3px 5px;
+}
 table th {
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  padding: 3px 5px;
+	border-bottom: 2px solid #ccc;
+	text-align: center;
 }
-table th {
-  border-bottom: 2px solid #ccc;
-  text-align: center;
-}
-
 /* blockquote 样式 */
 blockquote {
-  display: block;
-  border-left: 8px solid #d0e5f2;
-  padding: 5px 10px;
-  margin: 10px 0;
-  line-height: 1.4;
-  font-size: 100%;
-  background-color: #f1f1f1;
+	display: block;
+	border-left: 8px solid #d0e5f2;
+	padding: 5px 10px;
+	margin: 10px 0;
+	line-height: 1.4;
+	font-size: 100%;
+	background-color: #f1f1f1;
 }
-
 /* code 样式 */
 code {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  background-color: #f1f1f1;
-  border-radius: 3px;
-  padding: 3px 5px;
-  margin: 0 3px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	padding: 3px 5px;
+	margin: 0 3px;
 }
 pre code {
-  display: block;
+	display: block;
 }
-
 /* ul ol 样式 */
 ul, ol {
-  margin: 10px 0 10px 20px;
+	margin: 10px 0 10px 20px;
 }
