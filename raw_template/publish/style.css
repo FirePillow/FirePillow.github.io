@@ -3,12 +3,17 @@ body{
 	padding:0px;
 }
 
+.pixel{
+	font-family: 'NeuePixelSans';
+	font-weight: normal;
+}
+
 .top {
 	border: 0;
 	padding: 0;
 	position:fixed;
-	 left: 0px;
-	 right: 0px;
+	left: 0px;
+	right: 0px;
 	z-index:99999;
 	border-style: solid;
 	border-color: #FEDD55;
@@ -91,10 +96,15 @@ body{
 }
 
 #publish button{
+	box-sizing: border-box;
+	display: block;
 	border: none;
 	background-color: #FEDD55;
-	font-size:40px;
-	height: 40px;
+	font-size:35px;
+	height: 50px;
+	border-radius: 48px;
+	margin: 0px auto;
+	width: 250px;
 }
 
 h1{
