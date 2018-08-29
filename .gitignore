@@ -1,2 +1,5 @@
 #windows http test environment
 /playground/server.bat
+
+#Macbook custome seeting for finder
+*.DS_Store
