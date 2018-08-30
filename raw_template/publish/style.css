@@ -2,10 +2,11 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-.pixel {
-	font-family: 'NeuePixelSans';
-	font-weight: normal;
+
+#publishpic{
+	width: 75%;
 }
+
 .top {
 	border: 0;
 	position: fixed;
