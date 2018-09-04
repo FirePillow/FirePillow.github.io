@@ -1,1 +1,25 @@
-a
+<html>
+
+	<head>
+		<title> Homepage </title>
+		<link rel="stylesheet" type="text/css" href="authorinfo.css" />
+	</head>
+
+	<body>
+		<h1> About author
+		</h1>
+		<div class="img-circular" style="margin: 0 auto;"></div>
+		<h2>Baijingting,<br />food critics in China<br />
+		</h2>
+		<p>7 July 2018, 11:30
+			<br />
+			I HATE IBDP
+			<br /> 
+			This is what I says on my profile
+			<br /> 
+			oh yeah~
+		</p>
+	</body>
+
+		
+</html>
