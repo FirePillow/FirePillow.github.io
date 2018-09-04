@@ -1,0 +1,35 @@
+body {
+	background-color: #FEF1C0;
+	text-align: center;
+	height: 350px;
+	width: 402.81px;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: Segoe UI;
+	color: black;
+	background-color: #FAD149;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: Times New Roman;
+	color: black;
+}
+
+p {
+	font-size: 14px;
+	font-family: Calibri;
+	color: gray;
+	line-height: 20px;
+}
+
+.img-circular {
+	width: 200px;
+	height: 200px;
+	background-image: url('http://4493bz.1985t.com/uploads/allimg/160425/3-160425102142.jpg');
+	background-size: cover;
+	display: block;
+	border-radius: 50%;
+}
