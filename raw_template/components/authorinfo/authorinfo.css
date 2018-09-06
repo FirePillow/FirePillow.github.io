@@ -1,31 +1,31 @@
-body {
+#author {
 	background-color: #FEF1C0;
 	text-align: center;
-	height: 350px;
-	width: 402.81px;
+	height: 440px;
+	width: 400px;
 }
 
-h1 {
+#author h1 {
 	font-size: 25px;
 	font-family: Segoe UI;
 	color: black;
 	background-color: #FAD149;
 }
 
-h2 {
+#author h2 {
 	font-size: 24px;
 	font-family: Times New Roman;
 	color: black;
 }
 
-p {
+#author p {
 	font-size: 14px;
 	font-family: Calibri;
 	color: gray;
 	line-height: 20px;
 }
 
-.img-circular {
+#author .img-circular {
 	width: 200px;
 	height: 200px;
 	background-image: url('http://4493bz.1985t.com/uploads/allimg/160425/3-160425102142.jpg');
