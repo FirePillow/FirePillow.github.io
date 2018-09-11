@@ -3,3 +3,8 @@
 
 #Macbook custome seeting for finder
 *.DS_Store
+
+#jetbrain
+/.idea
+.idea/vcs.xml
+.idea/vcs.xml
