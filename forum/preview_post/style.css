@@ -28,6 +28,8 @@
 
 .badgered{background-color: #FF766C;}
 .badgegold{background-color: #E8CAA6;}
+.badgegreen{background-color: #9BE888;}
+.badgeblue{background-color: #D1FFF5;}
 
 .prepcontent{
 	margin-left:100px;
@@ -38,6 +40,7 @@
 	overflow: hidden;
 	font-size:10px;
 	color:grey;
+	max-width:90%;
 }
 
 .prepstat{
@@ -51,4 +54,5 @@
 
 .prepcomments{
 	float:right;
+	font-size:27px;
 }
