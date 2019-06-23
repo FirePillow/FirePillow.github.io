@@ -1,0 +1,54 @@
+.prepost .prepostimg{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	float:left;
+}
+
+.prepost{
+	margin:30px;
+}
+
+.badge span{
+	text-align:center;
+	display:inline-block;
+	width:50px;
+}
+
+.badge1{
+	margin-right:2px;
+	border-top-left-radius: 5%;
+	border-bottom-left-radius:5%;
+}
+
+.badge2{
+	border-top-right-radius: 5%;
+	border-bottom-right-radius:5%;
+}
+
+.badgered{background-color: #FF766C;}
+.badgegold{background-color: #E8CAA6;}
+
+.prepcontent{
+	margin-left:100px;
+}
+
+.prepbody{
+	word-wrap: break-word;
+	overflow: hidden;
+	font-size:10px;
+	color:grey;
+}
+
+.prepstat{
+	font-size:10px;
+	color:grey;
+}
+
+.preptitle{
+	font-size:21px;
+}
+
+.prepcomments{
+	float:right;
+}
