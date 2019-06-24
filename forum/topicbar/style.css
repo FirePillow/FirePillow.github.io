@@ -1,0 +1,40 @@
+.goldring{
+	text-align:center;
+	font-size:23px;
+	background-color:#E8CAA6;
+	border-radius:10px;
+	padding:8px;
+	margin:10px;
+	font-weight:bold;
+}
+
+#topics{
+	width:20%;
+}
+
+.mytopic{
+	margin:10px;
+}
+
+.catagory{
+	margin:10px;
+}
+
+.catagory ul{
+	list-style-type: circle;
+	margin-left:1em;
+	margin-top:0.5em;
+	font-size:0.75em;
+	color:grey;
+}
+
+.colorblock{
+	border-radius:5px;
+	height:100%;
+	padding-right:1.25em;
+}
+.redblock{background-color:#FF766C;}
+.yellowblock{background-color:#FFE505;}
+.goldblock{background-color: #E8CAA6;}
+.greenblock{background-color: #9BE888;}
+.blueblock{background-color: #D1FFF5;}
