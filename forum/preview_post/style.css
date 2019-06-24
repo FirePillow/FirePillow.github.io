@@ -38,21 +38,21 @@
 .prepbody{
 	word-wrap: break-word;
 	overflow: hidden;
-	font-size:10px;
+	font-size:0.6em;
 	color:grey;
 	max-width:90%;
 }
 
 .prepstat{
-	font-size:10px;
+	font-size:0.6em;
 	color:grey;
 }
 
 .preptitle{
-	font-size:21px;
+	font-size:1.3em;
 }
 
 .prepcomments{
 	float:right;
-	font-size:27px;
+	font-size:1.3em;
 }
