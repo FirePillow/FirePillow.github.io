@@ -50,11 +50,11 @@ header{
 	height:100%;
 	padding-right:1.25em;
 }
-.redblock{background-color:#FF766C;}
-.yellowblock{background-color:#FFE505;}
-.goldblock{background-color: #E8CAA6;}
-.greenblock{background-color: #9BE888;}
-.blueblock{background-color: #D1FFF5;}
+.bgred{background-color:#FF766C;}
+.bgyellow{background-color:#FFE505;}
+.bggold{background-color: #E8CAA6;}
+.bggreen{background-color: #9BE888;}
+.bgblue{background-color: #D1FFF5;}
 
 
 .prepost .prepostimg{
@@ -87,11 +87,6 @@ header{
 	border-top-right-radius: 5%;
 	border-bottom-right-radius:5%;
 }
-
-.badgered{background-color: #FF766C;}
-.badgegold{background-color: #E8CAA6;}
-.badgegreen{background-color: #9BE888;}
-.badgeblue{background-color: #D1FFF5;}
 
 .prepcontent{
 	margin-left:100px;
