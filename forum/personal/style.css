@@ -1,0 +1,42 @@
+body{
+	margin:0px;
+	background-color:#F5F5F5;
+}
+
+header{
+	font-size: 1.4em;
+	font-family: Arial;
+	text-align:center;
+	background-color: #FFE505;
+	padding: 40px;
+	box-shadow: 0 1px 3px rgba(26,26,26,.1);
+	height:77px;
+}
+
+.avatar{
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	top:-75px;
+	position:relative;
+	margin-left:30px;
+	float:left;
+}
+
+#main{
+	margin-left:15%;
+	margin-right:15%;
+	background-color:white;
+}
+
+#name{
+	font-size:1.4em;
+	font-weight:bold;
+	padding-top:calc(0.6 * (75px - 2.2em));
+}
+
+#signature{
+	font-size:0.8em;
+	color:grey;
+	padding-top:calc(0.4 * (75px - 2.2em));
+}
