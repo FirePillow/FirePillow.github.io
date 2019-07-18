@@ -1,13 +1,29 @@
-datalist=[
-	{avatarurl:"../common/sampleavatar.png",badge1:"DP",color1:"bgred",badge2:"活动",color2:"bggreen",title:"Battle of Bands 开始报名",stat:"Abby 回复于 13:13",
-	body:"SDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJSDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJN"},
-	{avatarurl:"../common/sampleavatar.png",badge1:"DP",color1:"bgred",badge2:"活动",color2:"bggreen",title:"Battle of Bands 开始报名",stat:"Abby 回复于 13:13",
-	body:"SDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJSDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJN"}
+datalist = [
+    {
+        avatarurl: "../common/sampleavatar.png",
+        badge1: "DP",
+        color1: "bgred",
+        badge2: "活动",
+        color2: "bggreen",
+        title: "Battle of Bands 开始报名",
+        stat: "Abby 回复于 13:13",
+        body: "SDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJSDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJN"
+    },
+    {
+        avatarurl: "../common/sampleavatar.png",
+        badge1: "DP",
+        color1: "bgred",
+        badge2: "活动",
+        color2: "bggreen",
+        title: "Battle of Bands 开始报名",
+        stat: "Abby 回复于 13:13",
+        body: "SDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJSDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJN"
+    }
 ]
 
 Vue.component('preposts', {
-  props: ['data'],
-  template: `
+    props: ['data'],
+    template: `
 			<div class="prepost">
 				<img class="prepostimg" v-bind:src="data.avatarurl">
 				<div class="prepcontent">
@@ -29,11 +45,12 @@ Vue.component('preposts', {
 				</div>
 			</div>
   `
-})
+});
 
-var app = new Vue({
-  el: '#preposts',
-  data: {
-    datas: datalist
-  }
-})
+document.addEventListener("load", () => new Vue({
+        el: '#preposts',
+        data: {
+            datas: datalist
+        }
+    })
+);
