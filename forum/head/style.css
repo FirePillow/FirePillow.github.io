@@ -2,17 +2,13 @@ body{
 	margin:0px;
 }
 
-header{
+.insideheader{
 	font-size: 1.4em;
 	font-family: Arial;
 	text-align:center;
 	background-color: #FFE505;
 	padding: 40px;
 	box-shadow: 0 1px 3px rgba(26,26,26,.1);
-}
-
-.insideheader{
-
 }
 
 #Bald{
