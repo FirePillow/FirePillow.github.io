@@ -7,6 +7,7 @@ datalist = [
         color2: "bggreen",
         title: "Battle of Bands 开始报名",
         stat: "Abby 回复于 13:13",
+        postcount:3,
         body: "SDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJSDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJN"
     },
     {
@@ -17,6 +18,7 @@ datalist = [
         color2: "bggreen",
         title: "Battle of Bands 开始报名",
         stat: "Abby 回复于 13:13",
+        postcount:3,
         body: "SDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJSDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJN"
     }
 ];
@@ -31,16 +33,16 @@ Vue.component('preposts', {
 						<span class="badge1" v-bind:class="data.color1">DP</span><span class="badge2" v-bind:class="data.color2">活动</span>
 					</div>
 					<div class="prepcomments">
-						<span><i class="fa fa-comments" aria-hidden="true"></i> 3</span>
+						<span><i class="fa fa-comments" aria-hidden="true"></i> {{data.postcount}}</span>
 					</div>
 					<div class="preptitle">
-						<b>Battle of Bands 开始报名</b>
+						<b>{{data.title}}</b>
 					</div>
 					<div class="prepstat">
-						<span>Abby 回复于 13:13</span>
+						<span>{{data.stat}}</span>
 					</div>
 					<div class="prepbody">
-						<span>SDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJSDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJN</span>
+						<span>{{data.body}}</span>
 					</div>
 				</div>
 			</div>
