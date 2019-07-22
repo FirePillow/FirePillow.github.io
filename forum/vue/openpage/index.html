@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Head look</title>
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script src="app.js"></script>
-	<script src="https://use.fontawesome.com/a1782b948d.js"></script>
-	<link href="style.css" rel="stylesheet"/>
-</head>
-<body>
-	<header>
-		<div class="insideheader">
-			<b>WELCOME TO    </b><img id="bald" src="../common/logo2.svg" alt="KCIBald!"/>
-		</div>
-	</header>
-	<div id="main">
-		<div id="topics">
-			<div>
-				<div class="goldring">
-					新的话题
-				</div>
-				<div class="mytopic">
-					<i class="fa fa-comments" aria-hidden="true"></i> 所有话题
-				</div>
-				<div class="mytopic">
-					<i class="fa fa-star-o" aria-hidden="true"></i> 我的收藏
-				</div>
-			</div>
-			<div>
-				<div class="goldring">
-					所有分类
-				</div>
-				<div class="catagory catayellow">
-					<span class="colorblock bgyellow"></span>&nbsp;&nbsp;&nbsp;年级
-					<ul>
-						<li>9</li>
-						<li>10</li>
-						<li>11</li>
-						<li>12</li>
-					</ul>
-				</div>
-				<div class="catagory catared">
-					<span class="colorblock bggreen"></span>&nbsp;&nbsp;&nbsp;活动
-				</div>
-				<div class="catagory catared">
-					<span class="colorblock bgblue"></span>&nbsp;&nbsp;&nbsp;IB office
-				</div>
-				<div class="catagory catared">
-					<span class="colorblock bggold"></span>&nbsp;&nbsp;&nbsp;DP
-				</div>
-				<div class="catagory catared">
-					<span class="colorblock bgred"></span>&nbsp;&nbsp;&nbsp;MYP
-				</div>
-			</div>
 
+	<head>
+		<title>Head look</title>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script src="app.js"></script>
+		<script src="https://use.fontawesome.com/a1782b948d.js"></script>
+		<link href="style.css" rel="stylesheet" />
+	</head>
 
-<!--			</div>
+	<body>
+		<header>
+			<div class="insideheader">
+				<b>WELCOME TO    </b><img id="bald" src="../common/logo2.svg" alt="KCIBald!" />
+			</div>
+		</header>
+		<div id="main">
+			<div id="topics">
+				<div>
+					<div class="goldring">
+						新的话题
+					</div>
+					<div class="mytopic">
+						<i class="fa fa-comments" aria-hidden="true"></i> 所有话题
+					</div>
+					<div class="mytopic">
+						<i class="fa fa-star-o" aria-hidden="true"></i> 我的收藏
+					</div>
+				</div>
+				<div>
+					<div class="goldring">
+						所有分类
+					</div>
+					<div class="catagory catayellow">
+						<span class="colorblock bgyellow"></span>&nbsp;&nbsp;&nbsp;年级
+						<ul>
+							<li>9</li>
+							<li>10</li>
+							<li>11</li>
+							<li>12</li>
+						</ul>
+					</div>
+					<div class="catagory catared">
+						<span class="colorblock bggreen"></span>&nbsp;&nbsp;&nbsp;活动
+					</div>
+					<div class="catagory catared">
+						<span class="colorblock bgblue"></span>&nbsp;&nbsp;&nbsp;IB office
+					</div>
+					<div class="catagory catared">
+						<span class="colorblock bggold"></span>&nbsp;&nbsp;&nbsp;DP
+					</div>
+					<div class="catagory catared">
+						<span class="colorblock bgred"></span>&nbsp;&nbsp;&nbsp;MYP
+					</div>
+				</div>
+				<!--			</div>
 			<div id="preposts">
 			<div class="prepost">
 				<img class="prepostimg" src="../common/sampleavatar.png">
@@ -78,11 +78,11 @@
 			</div>
 			</div>
 -->
+			</div>
+			<div id="preposts">
+				<preposts v-for="data in datas" v-bind:data="data"></preposts>
+			</div>
 		</div>
+	</body>
 
-		<div id="preposts">
-			<preposts v-for="data in datas" v-bind:data="data"></preposts>
-		</div>
-	</div>
-</body>
 </html>

@@ -23,7 +23,7 @@ html {
 
 h1 {
 	margin-top: 0;
-	margin-bottom: 40px;    
+	margin-bottom: 40px;
 	padding-left: 65px;
 	color: #707070;
 	letter-spacing: 0.04em;
@@ -51,7 +51,7 @@ input {
 	font-size: 2em;
 	height: 75px;
 	padding-left: 40px;
- 	padding-right: 50px;
+	padding-right: 50px;
 	box-sizing: border-box;
 	display: block;
 }
@@ -68,18 +68,18 @@ button {
 	height: 80px;
 }
 
-input:focus{
+input:focus {
 	border-color: #45B3FF;
 	transition: 1s;
 }
 
-button:hover{
+button:hover {
 	cursor: pointer;
 	border-color: #F0D700;
 	transition: 0.5s;
 }
 
-button:active{
-	background-color: rgba(255,229,5,0.50);
+button:active {
+	background-color: rgba(255, 229, 5, 0.50);
 	transition: 0.5s;
 }

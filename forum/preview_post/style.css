@@ -1,58 +1,69 @@
-.prepost .prepostimg{
+.prepost .prepostimg {
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
-	float:left;
+	float: left;
 }
 
-.prepost{
-	margin:30px;
+.prepost {
+	margin: 30px;
 }
 
-.badge span{
-	text-align:center;
-	display:inline-block;
-	width:50px;
+.badge span {
+	text-align: center;
+	display: inline-block;
+	width: 50px;
 }
 
-.badge1{
-	margin-right:2px;
+.badge1 {
+	margin-right: 2px;
 	border-top-left-radius: 5%;
-	border-bottom-left-radius:5%;
+	border-bottom-left-radius: 5%;
 }
 
-.badge2{
+.badge2 {
 	border-top-right-radius: 5%;
-	border-bottom-right-radius:5%;
+	border-bottom-right-radius: 5%;
 }
 
-.badgered{background-color: #FF766C;}
-.badgegold{background-color: #E8CAA6;}
-.badgegreen{background-color: #9BE888;}
-.badgeblue{background-color: #D1FFF5;}
-
-.prepcontent{
-	margin-left:100px;
+.badgered {
+	background-color: #FF766C;
 }
 
-.prepbody{
+.badgegold {
+	background-color: #E8CAA6;
+}
+
+.badgegreen {
+	background-color: #9BE888;
+}
+
+.badgeblue {
+	background-color: #D1FFF5;
+}
+
+.prepcontent {
+	margin-left: 100px;
+}
+
+.prepbody {
 	word-wrap: break-word;
 	overflow: hidden;
-	font-size:0.6em;
-	color:grey;
-	max-width:90%;
+	font-size: 0.6em;
+	color: grey;
+	max-width: 90%;
 }
 
-.prepstat{
-	font-size:0.6em;
-	color:grey;
+.prepstat {
+	font-size: 0.6em;
+	color: grey;
 }
 
-.preptitle{
-	font-size:1.3em;
+.preptitle {
+	font-size: 1.3em;
 }
 
-.prepcomments{
-	float:right;
-	font-size:1.3em;
+.prepcomments {
+	float: right;
+	font-size: 1.3em;
 }
