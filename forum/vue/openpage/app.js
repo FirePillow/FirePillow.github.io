@@ -19,7 +19,7 @@ datalist = [
         stat: "Abby 回复于 13:13",
         body: "SDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJSDNSADNJSDNAKJSNKJANSDKAJNSDKNASDJNAKCNJHUGEBGWBUIDFNJDNCSNFFINDSDFVAbbyNFJSDNFSDCNCIUENWINFIDSNFDISNSDINUCSIUENFIEUBRFISDNFOSNFONEIBFSDNFJSDNFKSDJNFJKNKSDJN"
     }
-]
+];
 
 Vue.component('preposts', {
     props: ['data'],
@@ -47,7 +47,8 @@ Vue.component('preposts', {
   `
 });
 
-document.addEventListener("load", () => new Vue({
+window.addEventListener("load", () =>
+    new Vue({
         el: '#preposts',
         data: {
             datas: datalist
