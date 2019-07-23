@@ -8,9 +8,9 @@ body {
 	font-family: Arial;
 	text-align: center;
 	background-color: #FFE505;
-	padding: 40px;
 	box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
-	height: 77px;
+	height: 150px;
+	top:75px;
 }
 
 body {
@@ -55,16 +55,26 @@ body {
 	height: 150px;
 	width: 150px;
 	border-radius: 50%;
-	top: -75px;
 	position: relative;
-	margin-left: 30px;
+	margin-left: calc(30px + 15%);
 	float: left;
+	top:75px;
 }
 
 #main {
 	margin-left: 15%;
 	margin-right: 15%;
 	background-color: white;
+}
+
+#user{
+	margin-left:150px;
+	margin-bottom:15px;
+	margin-right:6%;
+}
+
+#stuff{
+	margin-left: 30px;
 }
 
 #name {
@@ -77,4 +87,111 @@ body {
 	font-size: 0.8em;
 	color: grey;
 	padding-top: calc(0.4 * (75px - 2.2em));
+}
+
+#usrpgsel{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#usrpgsel .select{
+	display:inline;
+	font-weight:bold;
+	font-size:1.3em;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#usrpgsel .onselect{
+	background-color:#FFE505;
+	box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+}
+
+#modify{
+	float:right;
+	background-color:#E8CAA6;
+	border-radius:10px;
+	display:inline;
+	padding:5px;
+}
+
+.bgred {
+	background-color: #FF766C;
+}
+
+.bgyellow {
+	background-color: #FFE505;
+}
+
+.bggold {
+	background-color: #E8CAA6;
+}
+
+.bggreen {
+	background-color: #9BE888;
+}
+
+.bgblue {
+	background-color: #D1FFF5;
+}
+
+
+.prepost .prepostimg {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 3%;
+}
+
+.prepost {
+	padding-right:5%;
+	padding-left:5%;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.badge span {
+	text-align: center;
+	display: inline-block;
+	width: 50px;
+}
+
+.badge1 {
+	margin-right: 2px;
+	border-top-left-radius: 5%;
+	border-bottom-left-radius: 5%;
+}
+
+.badge2 {
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+}
+
+.prepcontent {
+	margin-left: 100px;
+}
+
+.prepbody {
+	word-wrap: break-word;
+	overflow: hidden;
+	font-size: 0.6em;
+	color: grey;
+	max-width: 90%;
+}
+
+.prepstat {
+	font-size: 0.6em;
+	color: grey;
+}
+
+.preptitle {
+	font-size: 1.3em;
+}
+
+.prepcomments {
+	float: right;
+	font-size: 1.3em;
 }
