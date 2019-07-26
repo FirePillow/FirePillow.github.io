@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Head look</title>
+		<script src="https://use.fontawesome.com/a1782b948d.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<link href="style.css" rel="stylesheet" />
+		<script src="app.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<div id="searchheader">
+				<div id="insidesearch">
+					<img id="bald" src="../common/logo.svg" alt="KCIBald!" />
+					<div id="searchright">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<i class="fa fa-sign-out" aria-hidden="true"></i>
+					</div>
+					<div id="search">
+						搜索框开发中。。。
+						<i class="fa fa-search" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+			<div id="insideheader">
+				<b>WELCOME TO    </b><img id="bald" src="../common/logo2.svg" alt="KCIBald!" />
+			</div>
+		</header>
+		<div id="main">
+			<div id="floors">
+				<div id="ff" class="floor">
+					<ff v-bind:data="ff"></ff>
+				</div>
+				<div>
+					<floors v-for="(data,index) in datas" v-bind:data="data" v-bind:index="index"></floors>
+				</div>
+			</div>
+			<div id="scrollbar">
+				<s>广告位招租</s><br>这里可能会开发一个新功能
+			</div>
+		</div>
+</html>

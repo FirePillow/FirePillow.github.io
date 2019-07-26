@@ -1,0 +1,160 @@
+body {
+	margin: 0px;
+	background-color: #F5F5F5;
+}
+
+hr{
+	border:none;
+	height:1px;
+	background-color:#707070;
+	clear:both;
+}
+
+#insideheader {
+	font-size: 1.4em;
+	font-family: Arial;
+	text-align: center;
+	background-color: #FFE505;
+	box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+	padding: 40px;
+}
+
+body #main {
+	margin-left: 15%;
+	margin-right: 15%;
+	overflow: hidden;
+	background-color:#FFF ;
+}
+
+#searchheader {
+	font-size: 1.4em;
+	font-family: Arial;
+	background-color: #FFF;
+	box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+	overflow: hidden;
+}
+
+#insidesearch {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5px;
+	margin-bottom: 1.5em;
+}
+
+#searchright {
+	float: right;
+}
+
+#search {
+	display: inline;
+	background-color: #FFE505;
+	border-radius: 500px;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10%;
+}
+
+#insidesearch #bald {
+	max-width: 3em;
+	float: left;
+}
+
+.badge span {
+	text-align: center;
+	display: inline-block;
+	width: 50px;
+	font-size:1.3em;
+}
+
+.badge1 {
+	margin-right: 2px;
+	border-top-left-radius: 5%;
+	border-bottom-left-radius: 5%;
+}
+
+.badge2 {
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+}
+
+.bgred {
+	background-color: #FF766C;
+}
+
+.bgyellow {
+	background-color: #FFE505;
+}
+
+.bggold {
+	background-color: #E8CAA6;
+}
+
+.bggreen {
+	background-color: #9BE888;
+}
+
+.bgblue {
+	background-color: #D1FFF5;
+}
+
+#floors{
+	float:left;
+	width:70%;
+}
+
+#ff{
+	margin-top:30px;
+}
+
+.floor{
+	margin-top:20px;
+	margin-left:5%;
+}
+
+.floorcount{
+	color:#707070;
+	font-size:0.75em;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+.avatar{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.stamp{
+	color:#707070;
+	font-size:0.75em;
+}
+
+.titleleft{
+	float: left;
+}
+
+.titleright{
+	float: right;
+}
+
+.vhtml{
+	clear:both;
+	padding-top:15px;
+	margin-bottom:70px;
+}
+
+.botbar{
+	float:right;
+	font-size:1.5em;
+	margin-bottom:15px;
+}
+
+#scrollbar{
+	right:20%;
+	position:fixed;
+	top:300px;
+}
