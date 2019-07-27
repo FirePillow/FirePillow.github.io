@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Head look</title>
+		<script src="https://use.fontawesome.com/a1782b948d.js"></script>
+		<link href="style.css" rel="stylesheet" />
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script src="app.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<div id="searchheader">
+				<div id="insidesearch">
+					<img id="bald" src="../common/logo.svg" alt="KCIBald!" />
+					<div id="searchright">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<i class="fa fa-sign-out" aria-hidden="true"></i>
+					</div>
+					<div id="search">
+						搜索框开发中。。。
+						<i class="fa fa-search" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+			<div id="insideheader">
+				<img class="avatar" src="../common/sampleavatar.png">
+			</div>
+		</header>
+		<div id="main">
+			<div id="stuff">
+				<div id="user">
+					<div id="name">It's me, Mario!!!<div id="modify"><i class="fa fa-plus" aria-hidden="true"></i></div></div>
+					<div id="signature">User's siganature: I want to make a usable frontend for KCIBald!!!</div>
+				</div>
+				<div id="usrpgsel">
+					<div class="select onselect">All</div>
+					<div class="select">Liked</div>
+					<div class="select">Bookmarked</div>
+					<div class="select">Answered</div>
+				</div>
+				<div id="preposts">
+								<div id="preposts">
+				<preposts v-for="data in datas" v-bind:data="data"></preposts>
+			</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>
+
+</html>
